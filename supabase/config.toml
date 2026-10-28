@@ -1,0 +1,2 @@
+[functions.board]
+verify_jwt = false

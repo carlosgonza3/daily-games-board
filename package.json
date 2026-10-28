@@ -1,0 +1,11 @@
+{
+  "name": "daily-games-board",
+  "private": true,
+  "scripts": {
+    "build": "node build.js",
+    "test": "node test-parser.js"
+  },
+  "devDependencies": {
+    "supabase": "^2.122.0"
+  }
+}
