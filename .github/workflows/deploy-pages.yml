@@ -26,8 +26,8 @@ jobs:
 
       - name: Build and test
         run: |
-          node build.js
-          node test-parser.js
+          npm run build
+          npm test
 
       - name: Package browser files
         run: |

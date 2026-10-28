@@ -5,7 +5,7 @@ Each person pastes their share text straight from the game; the page parses it a
 
 - `index.html` is the whole site (the built page). GitHub Pages serves it.
 - `template.html` + `parser.js` are the sources; `node build.js` writes `index.html`.
-- `node test-parser.js` runs the parser against sample share texts.
+- `npm test` runs the parser samples and the remembered-profile regression tests.
 - Scores live in your own Supabase project (`players` and `results` tables). The browser calls a narrow Supabase Edge Function; database credentials remain server-side and the tables deny direct browser access.
 
 ## Create an independent empty board

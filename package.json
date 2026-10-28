@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "build": "node build.js",
-    "test": "node test-parser.js"
+    "test": "node test-parser.js && node test-profile-persistence.js"
   },
   "devDependencies": {
     "supabase": "^2.122.0"
